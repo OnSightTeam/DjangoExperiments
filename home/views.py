@@ -8,7 +8,7 @@ from django.contrib.auth.decorators import login_required
 
 import stripe
 import json
-from home.models import Product # ? do I need to create the model
+from home.models import Product
 import djstripe
 from django.http import HttpResponse
 # Create your views here.

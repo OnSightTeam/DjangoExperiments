@@ -168,7 +168,6 @@ X_FRAME_OPTIONS = 'SAMEORIGIN'
 STRIPE_TEST_PUBLIC_KEY ='pk_test_51HblUbLlHqyXhRbUvcbrVlJEiXHx7hplgHEvoOTsjyyA3od3Yao0r1cJ0YebXYYJZQEj0qqSaCIWw2DDXajHe8lQ004BnxgndT'
 STRIPE_TEST_SECRET_KEY = 'sk_test_51HblUbLlHqyXhRbUABDjXBm5UvWIXmBTQLxOw8i5j8ZM3Ja8KCiHkiEnOmK0w5YmQv2fQ8wRpJH8Jqc8SwLhU4zM000U46uXqZ'
 STRIPE_LIVE_MODE = False  # Change to True in production
-DJSTRIPE_WEBHOOK_SECRET = "whsec_xxx" #create weebhook at https://dashboard.stripe.com/webhooks with your url
+DJSTRIPE_WEBHOOK_SECRET = "whsec_JQDwFmHDwG4uJNaNQHYCbUOIbnmaKQln" #create weebhook at https://dashboard.stripe.com/webhooks with your url
 # after adding weebhook endpoint (publicly accessible URL) run following commands
 #python3 manage.py djstripe_sync_plans_from_stripe (this will add products and plans to database)
-
